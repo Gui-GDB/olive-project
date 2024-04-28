@@ -1,0 +1,120 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AliAccessStaticViaInstance" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AliArrayNamingShouldHaveBracket" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AliControlFlowStatementWithoutBraces" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AliDeprecation" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AliEqualsAvoidNull" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AliLongLiteralsEndingWithLowercaseL" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AliMissingOverrideAnnotation" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AliWrapperTypeEquality" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAbstractClassShouldStartWithAbstractNaming" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAbstractMethodOrInterfaceMethodMustUseJavadoc" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidApacheBeanUtilsCopy" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidCallStaticSimpleDateFormat" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidCommentBehindStatement" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidComplexCondition" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidConcurrentCompetitionRandom" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidDoubleOrFloatEqualCompare" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidManuallyCreateThread" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidMissUseOfMathRandom" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidNegationOperator" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidNewDateGetTime" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidPatternCompileInMethod" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidReturnInFinally" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidStartWithDollarAndUnderLineNaming" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaAvoidUseTimer" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaBigDecimalAvoidDoubleConstructor" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaBooleanPropertyShouldNotStartWithIs" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaClassCastExceptionWithSubListToArrayList" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaClassCastExceptionWithToArray" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaClassMustHaveAuthor" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaClassNamingShouldBeCamel" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaCollectionInitShouldAssignCapacity" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaCommentsMustBeJavadocFormat" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaConcurrentExceptionWithModifyOriginSubList" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaConstantFieldShouldBeUpperCase" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaCountDownShouldInFinally" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaDontModifyInForeachCircle" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaEnumConstantsMustHaveComment" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaExceptionClassShouldEndWithException" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaIbatisMethodQueryForList" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaLockShouldWithTryFinally" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaLowerCamelCaseVariableNaming" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaMethodReturnWrapperType" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaMethodTooLong" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaPackageNaming" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaPojoMustOverrideToString" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaPojoMustUsePrimitiveField" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaPojoNoDefaultValue" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaRemoveCommentedCode" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaServiceOrDaoClassShouldEndWithImpl" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaStringConcat" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaSwitchStatement" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaTestClassShouldEndWithTestNaming" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaThreadLocalShouldRemove" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaThreadPoolCreation" enabled="false" level="BLOCKER" enabled_by_default="false" />
+    <inspection_tool class="AlibabaThreadShouldSetName" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaTransactionMustHaveRollback" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaUndefineMagicConstant" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaUnsupportedExceptionWithModifyAsList" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AlibabaUseQuietReferenceNotation" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="AlibabaUseRightCaseForDateFormat" enabled="false" level="CRITICAL" enabled_by_default="false" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,okhttp3.Call,execute,java.net.URL,openStream" />
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="IncorrectHttpHeaderInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="customHeaders">
+        <set>
+          <option value="appid" />
+          <option value="X-Gizwits-Application-Id" />
+          <option value="messages" />
+          <option value="    &quot;role&quot;" />
+          <option value="    &quot;content&quot;" />
+          <option value="  {" />
+          <option value="  }," />
+          <option value="  }" />
+          <option value="]" />
+          <option value="&quot;messages&quot;" />
+          <option value="{&quot;role&quot;" />
+        </set>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="program:,create:,author:,description:" />
+    </inspection_tool>
+    <inspection_tool class="MapOrSetKeyShouldOverrideHashCodeEquals" enabled="false" level="CRITICAL" enabled_by_default="false" />
+  </profile>
+</component>

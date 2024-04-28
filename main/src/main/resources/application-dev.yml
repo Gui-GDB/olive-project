@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://120.26.134.77:3306/olive
+    password: gdbGDB0203!
+  config:
+    activate:
+      on-profile: dev
+linux:
+  avatar: /images/avatar/ # 服务器上用户头像的存放路径
+  avatarPattern: images/avatar # 访问服务器上用户头像需要匹配的路径
+  debug: /images/debug/ # 服务器上病虫害的存放路径
+  debugPattern: images/debug # 访问服务器上虫子需要匹配的路径
+  test: /images/test/test # 服务器上临时保存文件的地方只是起到缓存的作用,不知道为什么到服务器上就没法使用
+  server: http://120.26.134.77:8800/olive-project # 只是一个前缀为了区分是否上服务器，这样不用每次部署的时候修改代码

@@ -1,0 +1,29 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: olive
+      paths-to-match: '/**'
+      # 生成文档所需的扫包路径，一般为启动类目录
+      packages-to-scan: com.gdb.main
+#knife4j 增强配置
+knife4j:
+  #是否启用增强设置
+  enable: true
+  #开启生产环境屏蔽
+  production: false
+  #是否启用登录认证
+  basic:
+    enable: true
+    username: admin
+    password: 123456
+  setting:  # 前端UI的个性化配置属性
+    language: zh_cn # 显示语言中文
+    enable-version: true
+    enable-swagger-models: true # 是否显示界面中SwaggerModel功能
+    swagger-model-name: SwaggerModel2  # 重命名SwaggerModel名称,默认
+    enable-document-manage: true # 是否显示界面中"文档管理"功能

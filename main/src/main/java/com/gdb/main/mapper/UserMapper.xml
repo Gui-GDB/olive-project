@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gdb.main.mapper.UserMapper">
+
+    <update id="update">
+        update user
+            <set>
+                <if test="name != null and name !=''">name = #{name},</if>
+                <if test="username != null and username !=''">username = #{username},</if>
+                <if test="password != null and password !=''">password = #{password},</if>
+                <if test="phone != null and phone !=''">phone = #{phone},</if>
+                <if test="sex != null">sex = #{sex},</if>
+                <if test="idNumber != null and idNumber !=''">idNumber = #{idNumber},</if>
+                <if test="status != null">status = #{status},</if>
+                <if test="createTime != null and createTime !=''">createTime = #{createTime},</if>
+                <if test="updateTime != null and updateTime !=''">updateTime = #{updateTime},</if>
+                <if test="createUser != null and createUser !=''">createUser = #{createUser},</if>
+                <if test="updateUser != null and updateUser !=''">updateUser = #{updateUser},</if>
+                <if test="avatar != null and avatar !=''">avatar = #{avatar},</if>
+            </set>
+            where id = #{id};
+    </update>
+</mapper>

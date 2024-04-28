@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://120.26.134.77:3306/olive
+    password: gdbGDB0203!
+  config:
+    activate:
+      on-profile: local
+linux:
+  avatar: G:/images/avatar/ # 服务器上用户头像的存放路径
+  avatarPattern: images/avatar # 访问服务器上用户头像需要匹配的路径
+  debug: G:/images/debug/ # 扶额u器上病虫害的存放路径
+  debugPattern: images/debug # 访问服务器上虫子需要匹配的路径
+  test: d:/test # 只是起到缓存的作用
+  server: '' # 只是一个前缀为了区分是否上服务器，这样不用每次部署的时候修改代码
